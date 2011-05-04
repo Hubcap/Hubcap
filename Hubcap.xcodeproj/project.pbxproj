@@ -311,6 +311,7 @@
 				03A7CEE71371DF1500AD365C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03A7CEE81371DF1500AD365C /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -319,6 +320,7 @@
 				03A7CEEA1371DF1500AD365C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
