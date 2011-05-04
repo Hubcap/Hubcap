@@ -1,1 +1,14 @@
-/Hubcap.xcodeproj/xcuserdata
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+!default.xcworkspace
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+*.xcworkspace
+build/*
+profile
+xcuserdata
