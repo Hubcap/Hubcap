@@ -21,9 +21,9 @@
 		03A7CEC51371DF1500AD365C /* Hubcap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubcap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A7CEC91371DF1500AD365C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03A7CECB1371DF1500AD365C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
-		03A7CED01371DF1500AD365C /* Hubcap-Info.plist */ = {isa = PBXFileReference; path = "Hubcap-Info.plist"; sourceTree = "<group>"; };
+		03A7CED01371DF1500AD365C /* Hubcap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hubcap-Info.plist"; sourceTree = "<group>"; };
 		03A7CED21371DF1500AD365C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03A7CED41371DF1500AD365C /* Hubcap-Prefix.pch */ = {isa = PBXFileReference; path = "Hubcap-Prefix.pch"; sourceTree = "<group>"; };
+		03A7CED41371DF1500AD365C /* Hubcap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hubcap-Prefix.pch"; sourceTree = "<group>"; };
 		03A7CED51371DF1500AD365C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03A7CED91371DF1500AD365C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		03A7CEDC1371DF1500AD365C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
