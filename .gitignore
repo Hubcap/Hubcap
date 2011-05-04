@@ -9,6 +9,11 @@
 *.pbxuser
 *.perspectivev3
 *.xcworkspace
+.DS_Store
+.Spotlight-V100
+.Trashes
+._*
+Icon?
 build/*
 profile
 xcuserdata
