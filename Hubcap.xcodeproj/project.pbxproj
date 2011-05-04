@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A7CECA1371DF1500AD365C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A7CEC91371DF1500AD365C /* Cocoa.framework */; };
+		03A7CECC1371DF1500AD365C /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A7CECB1371DF1500AD365C /* MacRuby.framework */; };
+		03A7CED31371DF1500AD365C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A7CED11371DF1500AD365C /* InfoPlist.strings */; };
+		03A7CED61371DF1500AD365C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7CED51371DF1500AD365C /* main.m */; };
+		03A7CEDA1371DF1500AD365C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A7CED81371DF1500AD365C /* MainMenu.xib */; };
+		03A7CEDD1371DF1500AD365C /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 03A7CEDC1371DF1500AD365C /* rb_main.rb */; };
+		03A7CEDF1371DF1500AD365C /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 03A7CEDE1371DF1500AD365C /* AppDelegate.rb */; };
+		03A7CEE21371DF1500AD365C /* Hubcap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03A7CEE01371DF1500AD365C /* Hubcap.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03A7CEC51371DF1500AD365C /* Hubcap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hubcap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A7CEC91371DF1500AD365C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03A7CECB1371DF1500AD365C /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		03A7CED01371DF1500AD365C /* Hubcap-Info.plist */ = {isa = PBXFileReference; path = "Hubcap-Info.plist"; sourceTree = "<group>"; };
+		03A7CED21371DF1500AD365C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03A7CED41371DF1500AD365C /* Hubcap-Prefix.pch */ = {isa = PBXFileReference; path = "Hubcap-Prefix.pch"; sourceTree = "<group>"; };
+		03A7CED51371DF1500AD365C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03A7CED91371DF1500AD365C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03A7CEDC1371DF1500AD365C /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		03A7CEDE1371DF1500AD365C /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		03A7CEE11371DF1500AD365C /* Hubcap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hubcap.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A7CEC21371DF1500AD365C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A7CECA1371DF1500AD365C /* Cocoa.framework in Frameworks */,
+				03A7CECC1371DF1500AD365C /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A7CEBA1371DF1400AD365C = {
+			isa = PBXGroup;
+			children = (
+				03A7CECE1371DF1500AD365C /* Hubcap */,
+				03A7CEC81371DF1500AD365C /* Frameworks */,
+				03A7CEC61371DF1500AD365C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A7CEC61371DF1500AD365C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A7CEC51371DF1500AD365C /* Hubcap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A7CEC81371DF1500AD365C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A7CEC91371DF1500AD365C /* Cocoa.framework */,
+				03A7CECB1371DF1500AD365C /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03A7CECE1371DF1500AD365C /* Hubcap */ = {
+			isa = PBXGroup;
+			children = (
+				03A7CEDE1371DF1500AD365C /* AppDelegate.rb */,
+				03A7CEE01371DF1500AD365C /* Hubcap.xcdatamodeld */,
+				03A7CED71371DF1500AD365C /* Resources */,
+				03A7CEDB1371DF1500AD365C /* Other Sources */,
+				03A7CECF1371DF1500AD365C /* Supporting Files */,
+			);
+			path = Hubcap;
+			sourceTree = "<group>";
+		};
+		03A7CECF1371DF1500AD365C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03A7CED01371DF1500AD365C /* Hubcap-Info.plist */,
+				03A7CED11371DF1500AD365C /* InfoPlist.strings */,
+				03A7CED41371DF1500AD365C /* Hubcap-Prefix.pch */,
+				03A7CED51371DF1500AD365C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03A7CED71371DF1500AD365C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03A7CED81371DF1500AD365C /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		03A7CEDB1371DF1500AD365C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				03A7CEDC1371DF1500AD365C /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		03A7CECD1371DF1500AD365C /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 03A7CEE81371DF1500AD365C /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		03A7CEC41371DF1500AD365C /* Hubcap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A7CEE51371DF1500AD365C /* Build configuration list for PBXNativeTarget "Hubcap" */;
+			buildPhases = (
+				03A7CEC11371DF1500AD365C /* Sources */,
+				03A7CEC21371DF1500AD365C /* Frameworks */,
+				03A7CEC31371DF1500AD365C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hubcap;
+			productName = Hubcap;
+			productReference = 03A7CEC51371DF1500AD365C /* Hubcap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A7CEBC1371DF1400AD365C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03A7CEBF1371DF1400AD365C /* Build configuration list for PBXProject "Hubcap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03A7CEBA1371DF1400AD365C;
+			productRefGroup = 03A7CEC61371DF1500AD365C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A7CEC41371DF1500AD365C /* Hubcap */,
+				03A7CECD1371DF1500AD365C /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A7CEC31371DF1500AD365C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A7CED31371DF1500AD365C /* InfoPlist.strings in Resources */,
+				03A7CEDA1371DF1500AD365C /* MainMenu.xib in Resources */,
+				03A7CEDD1371DF1500AD365C /* rb_main.rb in Resources */,
+				03A7CEDF1371DF1500AD365C /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A7CEC11371DF1500AD365C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A7CED61371DF1500AD365C /* main.m in Sources */,
+				03A7CEE21371DF1500AD365C /* Hubcap.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03A7CED11371DF1500AD365C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A7CED21371DF1500AD365C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03A7CED81371DF1500AD365C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A7CED91371DF1500AD365C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A7CEE31371DF1500AD365C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03A7CEE41371DF1500AD365C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03A7CEE61371DF1500AD365C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hubcap/Hubcap-Prefix.pch";
+				INFOPLIST_FILE = "Hubcap/Hubcap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03A7CEE71371DF1500AD365C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hubcap/Hubcap-Prefix.pch";
+				INFOPLIST_FILE = "Hubcap/Hubcap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		03A7CEE91371DF1500AD365C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		03A7CEEA1371DF1500AD365C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A7CEBF1371DF1400AD365C /* Build configuration list for PBXProject "Hubcap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A7CEE31371DF1500AD365C /* Debug */,
+				03A7CEE41371DF1500AD365C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A7CEE51371DF1500AD365C /* Build configuration list for PBXNativeTarget "Hubcap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A7CEE61371DF1500AD365C /* Debug */,
+				03A7CEE71371DF1500AD365C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03A7CEE81371DF1500AD365C /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A7CEE91371DF1500AD365C /* Debug */,
+				03A7CEEA1371DF1500AD365C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03A7CEE01371DF1500AD365C /* Hubcap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03A7CEE11371DF1500AD365C /* Hubcap.xcdatamodel */,
+			);
+			currentVersion = 03A7CEE11371DF1500AD365C /* Hubcap.xcdatamodel */;
+			path = Hubcap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03A7CEBC1371DF1400AD365C /* Project object */;
+}
