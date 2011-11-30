@@ -54,7 +54,9 @@
 				03A7CEC81371DF1500AD365C /* Frameworks */,
 				03A7CEC61371DF1500AD365C /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		03A7CEC61371DF1500AD365C /* Products */ = {
 			isa = PBXGroup;
