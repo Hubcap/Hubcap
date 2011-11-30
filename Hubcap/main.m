@@ -3,7 +3,7 @@
 //  Hubcap
 //
 //  Created by Erik Michaels-Ober on 5/4/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Erik Michaels-Ober. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

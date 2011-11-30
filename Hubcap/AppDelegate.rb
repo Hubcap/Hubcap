@@ -3,7 +3,7 @@
 #  Hubcap
 #
 #  Created by Erik Michaels-Ober on 5/4/11.
-#  Copyright 2011 __MyCompanyName__. All rights reserved.
+#  Copyright 2011 Erik Michaels-Ober. All rights reserved.
 #
 
 class AppDelegate
@@ -34,7 +34,7 @@ class AppDelegate
           model_url = NSBundle.mainBundle.URLForResource("Hubcap", withExtension:"momd")
           @managedObjectModel = NSManagedObjectModel.alloc.initWithContentsOfURL(model_url)
         end
-        
+
         @managedObjectModel
     end
 
@@ -87,7 +87,7 @@ class AppDelegate
 
     #
     # Returns the managed object context for the application (which is already
-    # bound to the persistent store coordinator for the application.) 
+    # bound to the persistent store coordinator for the application.)
     #
     def managedObjectContext
         return @managedObjectContext if @managedObjectContext

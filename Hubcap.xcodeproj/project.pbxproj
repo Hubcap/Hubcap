@@ -153,6 +153,9 @@
 /* Begin PBXProject section */
 		03A7CEBC1371DF1400AD365C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 03A7CEBF1371DF1400AD365C /* Build configuration list for PBXProject "Hubcap" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;

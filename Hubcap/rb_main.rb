@@ -3,7 +3,7 @@
 #  Hubcap
 #
 #  Created by Erik Michaels-Ober on 5/4/11.
-#  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+#  Copyright (c) 2011 Erik Michaels-Ober. All rights reserved.
 #
 
 # Loading the Cocoa framework. If you need to load more frameworks, you can
